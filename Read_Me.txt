@@ -1,0 +1,1 @@
+Make sure to place the NewSoftSerial and TinyGPS10 folders in your Arduino library Arduino 
