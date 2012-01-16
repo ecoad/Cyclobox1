@@ -6,10 +6,11 @@ GPSModule gpsModule;
 
 void setup()
 {
-    Serial.begin(115200);
+    Serial.begin(4800);
 
     Serial.println("Waiting for GPS lock...");
     Serial.println(""); 
+    gpsModule.init();
 }
 
 void loop()

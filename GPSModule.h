@@ -7,6 +7,7 @@ class GPSModule
 {
   public:
     GPSModule();
+    void init();
     void read();
   private:
     int i;
