@@ -1,8 +1,11 @@
 #include "Arduino.h"
 #include "GPSModule.h"
+#include "DiskModule.h"
 #include "SoftwareSerial.h"
+#include "SD.h"
 
 GPSModule gps;
+DiskModule disk;
 
 void setup()
 {
@@ -11,6 +14,7 @@ void setup()
     Serial.println("Waiting for GPS lock...");
     Serial.println(""); 
     gps.init();
+    disk.init();
 }
 
 void loop()
