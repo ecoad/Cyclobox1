@@ -10,9 +10,6 @@ class GPSModule
     void init();
     void read();
   private:
-    int i;
-    char messageline[80];
-    bool recording;
 };
 
 #endif
